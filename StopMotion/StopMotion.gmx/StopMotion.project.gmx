@@ -9,8 +9,11 @@
     <sprite>sprites\TestSprite</sprite>
     <sprite>sprites\Floor1</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
