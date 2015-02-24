@@ -7,16 +7,16 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\TestSprite</sprite>
-    <sprite>sprites\Wall1_sprite</sprite>
-    <sprite>sprites\EnigmaMan_sprite</sprite>
+    <sprite>sprites\sprite_Wall1</sprite>
+    <sprite>sprites\sprite_EnigmaMan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Wall1</object>
-    <object>objects\EnigmaMan</object>
+    <object>objects\obj_Wall1</object>
+    <object>objects\obj_EnigmaMan</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
