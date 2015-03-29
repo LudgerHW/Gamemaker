@@ -32,8 +32,11 @@ var spd=5
         move_towards_point(mouse_x,mouse_y,spd)   
        }    
  
-    if(keyboard_check(ord('A')) &amp;&amp; place_free(x-3,y)){
-        x-=3;
+    if(keyboard_check(ord('A'))){
+
+        var relX = x - mouse_x
+        var relY = y - mouse_y
+        move_towards_point(x + relY,y + relX, spd) 
         }
  
      if(keyboard_check(ord('S'))) {
@@ -44,7 +47,7 @@ var spd=5
         }
     
     image_angle = point_direction(obj_EnigmaMan.x, obj_EnigmaMan.y, mouse_x, mouse_y);
-        
+    image_angle = point_direction(obj_EnigmaMan.x, obj_EnigmaMan.y, obj_EnigmaMan.direction, obj_EnigmaMan.direction);  
     }    
 </string>
           </argument>
